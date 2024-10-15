@@ -1,0 +1,11 @@
+* {
+    font-size: 25px;
+    color: #9e09f5;
+}
+
+:host {
+    border: 1px solid #9e09f5;
+    display: block;
+    padding: 10px;
+    margin: 2px;
+}

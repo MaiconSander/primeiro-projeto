@@ -1,0 +1,62 @@
+<h2>Hello World em Angular</h2>
+
+
+<app-filho-a [texto]="textoVaiProFilho" (textoPreenchido)="textoVeioDoFilho = $event"></app-filho-a>
+
+<app-filho-b></app-filho-b>
+
+<p>
+
+    <label for="caixaPai">Digite o texto que vai pro componente filho:</label>
+    <input type="text" id="caixaPai" #caixaPai>
+
+    <button (click)="textoVaiProFilho = caixaPai.value">Enviar pro filho</button>
+</p>
+
+<p *ngIf="textoVeioDoFilho">
+    Esse texto veio do filho: {{textoVeioDoFilho}}
+
+</p>
+
+<p>
+    <a href="/">Home</a>
+</p>
+
+
+ <p><a routerLink="filho-a">filho-A</a></p>
+
+ <p><a routerLink="filho-b">filho-B</a></p>
+
+ <router-outlet/>
+
+
+<p>Lista de item</p>
+
+<ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+
+</ul>
+
+<h2>Testes de html em angular</h2>
+
+<b>ANGULAR</b>
+
+<div>
+    <p>Seu nome completo</p>
+    <input type="nome">
+</div>
+
+<br>
+
+<div>
+    <p>Seu email</p>
+    <input type="email">
+</div>
+
+<div>
+    <p>Sua idade</p>
+    <input type="number">
+</div>

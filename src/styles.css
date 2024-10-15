@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+    font-family:sans-serif;
+}
+
+h2 {
+    font-size: 35px;
+    color: blue;
+}
+
+p {
+    font-size: 20px;
+    color: #25d652;
+}
+
+button {
+    font-size: 20px;
+    color: #dd0e0e;
+}
+
+ul {
+    color: rgb(107, 146, 231);
+}
+
+.botao {
+    border: 0;
+    padding: 15px;
+    border-radius: 45px;
+    font-size: 13px;
+    margin: 10px 0
+}
+
+.vermelho {
+    background: #dd0e0e;
+}
+
+.verde {
+    background: #25d652;
+}
+
+input [type=text],
+select {
+    height: 26px;
+    border-radius: 15px;
+    border: 1px solid #b8b8b8;
+    margin-bottom: 5px;
+    padding: 0 15px;
+}
+
+
